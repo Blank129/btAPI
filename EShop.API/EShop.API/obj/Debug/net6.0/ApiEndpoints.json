@@ -1,0 +1,134 @@
+[
+  {
+    "ContainingType": "EShop.API.Controllers.PostController",
+    "Method": "GetPost",
+    "RelativePath": "api/Post/GetPost",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EShop.API.Controllers.PostController",
+    "Method": "GetPostByCategoryId",
+    "RelativePath": "api/Post/GetPostByCategoryId",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestData",
+        "Type": "DataAccess.EShop2.Entities.GetPostByCategoryId",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EShop.API.Controllers.PostController",
+    "Method": "GetPostById",
+    "RelativePath": "api/Post/GetPostById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestData",
+        "Type": "DataAccess.EShop2.Entities.GetPostByIdRequestData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EShop.API.Controllers.PostController",
+    "Method": "PostDelete",
+    "RelativePath": "api/Post/PostDelete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestData",
+        "Type": "DataAccess.EShop2.Entities.PostDeleteRequestData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EShop.API.Controllers.PostController",
+    "Method": "PostInsert_Update",
+    "RelativePath": "api/Post/PostInsert_Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "post",
+        "Type": "DataAccess.EShop2.Entities.Post",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EShop.API.Controllers.ProductController",
+    "Method": "GetProductById",
+    "RelativePath": "api/Product/GetProductById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestData",
+        "Type": "DataAccess.EShop2.Entities.GetProductByIdRequestData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EShop.API.Controllers.ProductController",
+    "Method": "Product_Delete",
+    "RelativePath": "api/Product/Product_Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestData",
+        "Type": "DataAccess.EShop2.Entities.ProductDeleteRequestData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EShop.API.Controllers.ProductController",
+    "Method": "Product_Getlist",
+    "RelativePath": "api/Product/Product_Getlist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EShop.API.Controllers.ProductController",
+    "Method": "Product_InsertUpdate",
+    "RelativePath": "api/Product/Product_InsertUpdate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "DataAccess.EShop2.Entities.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
